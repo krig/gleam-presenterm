@@ -8,7 +8,7 @@ clone_path=$(mktemp -d)
 
 git_hash=$(cat "$script_dir/bat.git-hash")
 echo "Cloning repo @ ${git_hash} into '$clone_path'"
-git clone https://github.com/sharkdp/bat.git "$clone_path"
+git clone https://github.com/krig/gleam-bat.git "$clone_path"
 cd "$clone_path"
 git reset --hard "$git_hash"
 
