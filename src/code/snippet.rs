@@ -635,6 +635,7 @@ impl FromStr for SnippetLanguage {
             "file" => File,
             "fish" => Fish,
             "fsharp" => FSharp,
+            "gleam" => Gleam,
             "go" => Go,
             "graphql" => GraphQL,
             "haskell" => Haskell,
