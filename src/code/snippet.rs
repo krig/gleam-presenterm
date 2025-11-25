@@ -552,6 +552,7 @@ pub enum SnippetLanguage {
     File,
     Fish,
     FSharp,
+    Gleam,
     Go,
     GraphQL,
     Haskell,
